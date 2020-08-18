@@ -1,0 +1,129 @@
+
+
+body a {
+    text-decoration: none;
+}
+ 
+   header{ background-color: yellow;}
+
+.logo {overflow: hidden;
+    background-color: gray;
+    
+ }
+ .logo a{ color: white;
+    text-align: left;
+     font-size: 30px ;}
+   
+.logo input[type=text]
+{   float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;}
+
+ul { list-style-type: none;}
+
+#menu { 
+    background-color:gray;
+   /*  width: 100%; */
+    height:50px;
+   display: flex;
+   justify-content: space-evenly;
+   position: relative;
+  
+   
+  
+}
+#menu a { display: inline-block;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top:15px;}
+#menu a:hover  { 
+    color: yellow;
+    border-style: solid;
+    border-color: rgb(58, 46, 46);
+background-color: rgb(58, 46, 46);
+}
+.menu-an { color: yellow ;
+     display: none;
+    background-color:rgb(58, 46, 46) ;
+   padding: 10px ;
+   width: 800px;
+     }
+.menu:hover > .menu-an {
+    display: flex;
+    float: left; 
+    justify-content: space-evenly;
+    position: absolute;
+    
+}
+main {background-color: rgb(66, 55, 33);}
+
+.suggest {background-color: grey;
+   
+   
+  }
+.title { font-size : 30px;
+    font-weight: bold ;
+    /* float: left; */}
+.title > a { float: right;
+    font-size: 15px;
+margin-top:10px;}
+.movie {  display: flex;
+position: relative;
+width: 1280px;
+overflow: scroll;
+
+}
+
+.movie-list {
+    background-color: rgb(83, 80, 80);
+    margin: 5px;
+    /* overflow: hidden; */
+    width: 200px;
+    position: relative;
+  
+   
+
+border-style: solid;
+border-color:rgb(83, 80, 80) ;}
+
+.movie-list .background { 
+    display: none; 
+    position: absolute ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:black;
+    /* làm mờ */
+    opacity: 0.5;       }
+.caption-movie  {
+    position: absolute;
+    top: 0;
+     color: white;
+    background-color: rgb(83, 80, 80);
+    border-style: solid;
+    border-color: rgb(83, 80, 80);
+    border-radius: 15%;
+}
+.movie-list:hover  .background {
+    display: block;
+}
+.conten-movie
+{ color: white;}
+.new { background-color: gray;}
+
+
+
+
+
+
+
+
+
+
+
